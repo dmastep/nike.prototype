@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header__ul{
+    display: flex;
+
+}
+.logo{
+    margin-top: 10px;
+    margin-left: 17px;
+
+}
+.logo1{
+    margin-top: 10px;
+    margin-left: 17px;
+
+}
+.header__nav-link{
+    padding: 19px 24px 21px 28px;
+    font-size: 18px;
+    color: #4d4d4d;
+    font-family: arial;
+    font-weight: bold;
+    display: inline-block;
+}
+.header__nav-link:hover{
+    background: #c1bc45;
+    color: white;
+    transition: 500ms;
+
+}
+header{
+    background:url(img/1410223962b6b3002e5588.97265713headerbg.jpg)no-repeat center center/cover ;
+    height: 672px;
+} 
+.header__content{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header__row{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+span{
+    font-weight: bold;
+}
+.header__nike{
+    color: #c1bc45;
+    font-size: 100px;
+    line-height: 72px;
+    font-family: arial;
+    margin-bottom: 20px;
+}
+.header__nike-text{
+    font-family: arial; 
+    font-size: 20px;
+}
+main{
+    margin-top: 90px;
+    margin-bottom: 35px;
+}
+.catalog{
+    display: flex;
+    justify-content: space-between;
+}
+.all__nike{
+    width: 540px;
+}
+.left__nike{
+    width: 540px;
+}
+
+.nike__text{
+   width: 540px;
+}
+.Nike{
+    border: 4px solid #aeaeae;
+    display: flex;
+    margin-bottom: 25px;
+}
+.footer__text{
+    display: flex;
+    justify-content: center ;
+}
+footer{
+    background: #efecec;
+    padding: 60px;
+}
+.footer__ul{
+    display: flex;
+}
+.footer__nav-link{
+    padding: 19px 24px 21px 28px;
+    font-size: 18px;
+    color: #4d4d4d;
+    font-family: arial;
+    font-weight: bold;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1150px){
+    .catalog{
+        display: block;
+    }
+    .left__Nike{
+       text-align: center;
+    }
+    .nike__text{
+        margin: 0 auto;
+    }
+    .Nike{
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+    }
+    .all__nike{
+        
+        margin: 0 auto;
+    }
+    .footer__text{
+        display: block;
+    }
+    .footer__ul{
+        display: flex;
+        justify-content: center;
+
+    }
+    .logo1{
+        display: none;
+    }
+}
