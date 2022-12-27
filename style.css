@@ -71,7 +71,7 @@ span{
     font-size: 20px;
 }
 main{
-    margin-top: 90px;
+    margin-top: 70px;
     margin-bottom: 35px;
 }
 .catalog{
@@ -79,19 +79,22 @@ main{
     justify-content: space-between;
 }
 .all__nike{
-    width: 540px;
+    max-width: 540px;
 }
 .left__nike{
     width: 540px;
 }
 
 .nike__text{
-   width: 540px;
+   max-width: 540px;
 }
 .Nike{
     border: 4px solid #aeaeae;
     display: flex;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
 }
 .footer__text{
     display: flex;
@@ -130,7 +133,15 @@ footer{
         display: block;
     }
     .left__Nike{
-       text-align: center;
+       text-align: justify;
+    }
+    .left__Nike>img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .nike__text>h2{
+        text-align: center;
     }
     .nike__text{
         margin: 0 auto;
@@ -155,4 +166,127 @@ footer{
     .logo1{
         display: none;
     }
+    .logo{
+        justify-content: center;
+        display: flex;
+    }
+    .header__nav-link{
+        font-size: 14px;
+    }
+    .footer__nav-link{
+        font-size: 14px;
+    }
+    .header__nav{
+        display: block;
+    }
+    .header__ul{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(max-width:800px){
+    .header__nav-link{
+        font-size: 9px;
+        padding: 0 10px;
+        margin-top: 40px;
+    }
+    .footer__nav-link{
+        font-size: 9px;
+        padding: 0 10px
+    }
+    .header__nike{
+        font-size: 60px;
+    }
+    .logo{
+        display: none;
+    }
+    header{
+        max-height: 400px;
+    }
+    .left__Nike>img{
+        max-height: 300px;
+        margin-top: 20px;
+    }
+    .nike__text>h2{
+        font-size: 20px;
+    }
+    .nike__text>p{
+        font-size: 14px;
+        max-width: 400px;
+        
+    }
+    .nike__text>h3{
+        font-size: 17px;
+    }
+    .Nike>img{
+        max-height: 60px;
+        padding-right: 16px;
+        padding-top: 10px;
+    }
+    .nike__text>p:first-of-type{
+        font-size: 14px;
+        max-width: 400px;
+        margin: 0 auto  
+    }
+    .Nike{
+        max-width: 80%;
+        margin: 0 auto;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+}
+@media(max-width:560px){
+    .left__Nike>img{
+        max-height: 200px;
+        margin-bottom: 15px;
+    }
+    .footer__nav-link{
+        font-size: 9px;
+        padding: 0 7px;
+        margin: 15px 0;
+    }
+    .header__nav-link{
+        margin-top: 20px;
+        font-size: 9px;
+        padding: 0 7px
+    }
+    .header__nike{
+        font-size: 40px;
+    }
+    header{
+        max-height: 300px;
+    }
+    main{
+        margin-top: 20px;
+    }
+    footer{
+        padding: 15px;
+    }
+    .header__content{
+        margin-left: 14px;
+    }
+    .header__nike-text{
+        max-width: 190px;
+    }
+}
+@media(max-width:420px){
+    .footer__nav-link{
+        font-size: 9px;
+        padding: 0 7px;
+        margin: 15px 0;
+    }
+    .header__nav-link{
+        margin-top: 20px;
+        font-size: 9px;
+        padding: 0 7px
+    }
+    .nike__text>p:first-of-type{
+         margin: 0 20px;
+    }
+    .nike__text>h3{
+        text-align: center;
+   }
+   .nike__text>p{
+    text-align: justify;
+   }
 }
